@@ -42,12 +42,12 @@ border-color: #09f;
     color: rgb(219, 33, 95);
 }
 
-a {
+#navbar a {
     color:white;
     padding: .25rem .5rem;
     text-decoration: none;
 }
-nav {
+#navbar {
     width: 100%;
     display: flex;
     flex-flow: row;
@@ -135,12 +135,6 @@ section img{
     text-align: center;
 }
 
-.projects{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    column-gap: 1em;
-}
 
 .projects__column_figure{
     text-align: center;
@@ -152,10 +146,6 @@ section img{
 }
 
 
-.projects article{
-    background: #ccc;
-    padding: 1em;
-}
 .projects__column_title{
     margin: 2rem;
     text-align: center;
